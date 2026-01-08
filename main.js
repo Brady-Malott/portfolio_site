@@ -342,7 +342,7 @@ function renderContact(contact) {
       (item) => `
       <div class="contact-card__item">
         <div class="contact-card__label">${item.label}</div>
-        <div class="contact-card__value"><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.url}</a></div>
+        <div class="contact-card__value"><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.linkText}</a></div>
       </div>`
     )
     .join('');
