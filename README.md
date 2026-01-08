@@ -4,7 +4,7 @@ A JSON-driven portfolio site with a home page, projects gallery, and contact pag
 
 ## Structure
 
-- `index.html` – Home page with experience timeline and tools grid (driven by JSON).
+- `index.html` – Home page with experience timeline and tools grid, populated from `data/experience.json` and `data/tools.json`.
 - `projects.html` – Grid of project cards populated from `data/projects.json`.
 - `contact.html` – Contact details populated from `data/contact.json`.
 - `main.js` – Page initialization and DOM rendering logic.
