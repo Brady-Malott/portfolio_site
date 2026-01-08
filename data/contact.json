@@ -1,0 +1,13 @@
+{
+  "name": "Brady Malott",
+  "location": "Windsor, ON Canada",
+  "email": "brady.malottwork@gmail.com",
+  "github": "https://github.com/Brady-Malott",
+  "linkedin": "https://www.linkedin.com/in/brady-malott",
+  "other": [
+    {
+      "label": "Resume",
+      "url": "https://example.com/your-resume.pdf"
+    }
+  ]
+}

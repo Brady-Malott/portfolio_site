@@ -1,0 +1,17 @@
+[
+  { "name": "React", "level": "proficient" },
+  { "name": "JavaScript", "level": "proficient" },
+  { "name": "C", "level": "proficient" },
+  { "name": "Java", "level": "proficient" },
+  { "name": "Kotlin", "level": "proficient" },
+  { "name": "Python", "level": "proficient" },
+  { "name": "Android Studio", "level": "proficient" },
+  { "name": "SQL (PostgreSQL)", "level": "proficient" },
+  { "name": "Docker", "level": "proficient" },
+  { "name": "HTML/CSS", "level": "proficient" },
+  { "name": "AWS", "level": "familiar" },
+  { "name": "Node.js", "level": "familiar" },
+  { "name": "C++", "level": "familiar" },
+  { "name": "Jenkins", "level": "familiar" },
+  { "name": "PHP", "level": "familiar" }
+]

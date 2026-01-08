@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "This site - a JSON-driven portfolio for showcasing my projects and work experience.",
+    "thumbnail": "assets/images/thumbnail_portfolio_site.jpg",
+    "type": "web",
+    "url": "https://example.com/portfolio"
+  }
+]

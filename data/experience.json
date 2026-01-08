@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "role": "Full-Stack App Developer, Co-op",
+    "company": "Hiram Walker and Sons Limited",
+    "location": "Remote",
+    "start": "May 2021",
+    "end": "Aug 2021",
+    "summary": "Full-stack Java web development of a quality check application for distillery machinery",
+    "highlights": [
+      "Implemented new quality checks with intuitive user interfaces using GWT widgets.",
+      "Automated a quality check workflow to read data from Excel sheets using Apache POI.",
+      "Documented new quality checks to ensure maintainability and knowledge transfer."
+    ],
+    "tools": ["Java", "GWT", "Apache POI", "MVC"]
+  },
+  {
+    "id": 2,
+    "role": "Software Developer Intern",
+    "company": "CMS by Ever.Ag",
+    "location": "Remote",
+    "start": "May 2022",
+    "end": "Aug 2022",
+    "summary": "Full-stack web development on a logistics scheduling system.",
+    "highlights": [
+      "Designed and built a logistics calendaring system with FullCalendarJS to significantly ease the scheduling process.",
+      "Created a CI/CD pipeline to automate building and deploying to production.",
+      "Initiated documentation efforts via Confluence, reducing resolution time of common issues by 90%."
+    ],
+    "tools": ["JavaScript", "Servoy", "PostgreSQL", "MVC", "Jenkins", "FullCalendarJS"]
+  },
+  {
+    "id": 3,
+    "role": "Software and Support Developer",
+    "company": "CMS by Ever.Ag",
+    "location": "Remote",
+    "start": "Sep 2022",
+    "end": "May 2024",
+    "summary": "Full-stack web development and support on logistics and warehouse booking applications.",
+    "highlights": [
+      "Designed and built a warehouse delivery booking system with FullCalendarJS.",
+      "Integrated the booking system with a logistics scheduling system to automate the booking process.",
+      "Investigated and resolved bugs efficiently and proactively.",
+      "Conducted thorough and constructive code reviews to uphold performant and maintainable code standards."
+    ],
+    "tools": ["JavaScript", "Servoy", "PostgreSQL", "MVC", "FullCalendarJS"]
+  },
+  {
+    "id": 4,
+    "role": "Software Engineer Intern",
+    "company": "RIIS LLC",
+    "location": "Remote",
+    "start": "May 2024",
+    "end": "December 2024",
+    "summary": "Android development for drone-integrated applications.",
+    "highlights": [
+      "Integrated an Android admin portal app with Google Drive, enabling centralized media storage and automated reporting.",
+      "Resolved communication issues between an admin portal and mobile devices via Bluetooth connectivity.",
+      "Trained 3D object detection models on traffic datasets to detect potential collisions at intersections."
+    ],
+    "tools": ["Kotlin", "Python", "Android Studio", "GCP", "FFmpeg", "YOLO", "MVVM"]
+  },
+  {
+    "id": 5,
+    "role": "Software Engineer",
+    "company": "RIIS LLC",
+    "location": "Remote",
+    "start": "January 2025",
+    "end": "Present",
+    "summary": "Android/web development for drone-integrated applications.",
+    "highlights": [
+      "Implemented custom enhancements to the open-source ground control software QGroundControl across Android and desktop builds.", 
+      "Developed a UTM web app for visualizing vehicle traffic in real time and plotting infrastructure, routes, and geofences.",
+      "Built a video streaming and clipping application for detecting gas leaks from a drone-mounted sensor."
+    ],
+    "tools": ["Kotlin", "C++", "Python", "Android Studio", "Docker", "QGroundControl", "PX4/ArduPilot", "MVVM"]
+  }
+]
