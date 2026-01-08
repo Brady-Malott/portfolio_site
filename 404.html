@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Brady Malott – Projects</title>
-  <meta name="description" content="Selected projects by Brady Malott, spanning web applications, tools, and experiments." />
+  <title>Page Not Found – Brady Malott</title>
+  <meta name="description" content="The page you requested on Brady Malott's portfolio could not be found." />
   <meta name="author" content="Brady Malott" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Brady Malott – Projects" />
-  <meta property="og:description" content="Explore projects built by Brady Malott, including web and Android work." />
+  <meta property="og:title" content="Page Not Found – Brady Malott" />
+  <meta property="og:description" content="The page you requested on Brady Malott's portfolio could not be found." />
   <meta property="og:site_name" content="Brady Malott Portfolio" />
   <meta property="og:image" content="assets/images/thumbnail_portfolio_site.jpg" />
-  <meta property="og:image:alt" content="Screenshot of Brady Malott's portfolio projects" />
+  <meta property="og:image:alt" content="Screenshot of Brady Malott's portfolio website" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Brady Malott – Projects" />
-  <meta name="twitter:description" content="Selected projects by Brady Malott across web and Android development." />
+  <meta name="twitter:title" content="Page Not Found – Brady Malott" />
+  <meta name="twitter:description" content="The page you requested on Brady Malott's portfolio could not be found." />
   <meta name="twitter:image" content="assets/images/thumbnail_portfolio_site.jpg" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
@@ -32,16 +32,16 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body
-  data-page="projects"
+  data-page="404"
   class="d-flex flex-column min-vh-100 bg-body-tertiary"
 >
-    <header class="navbar navbar-expand-sm bg-body border-bottom border-secondary-subtle fixed-top">
+  <header class="navbar navbar-expand-sm bg-body border-bottom border-secondary-subtle fixed-top">
     <div class="container py-2 d-flex align-items-center justify-content-between gap-3">
-        <a href="index.html" class="navbar-brand navbar-brand-mark text-uppercase fw-semibold">BM</a>
+      <a href="index.html" class="navbar-brand navbar-brand-mark text-uppercase fw-semibold">BM</a>
       <div class="d-flex align-items-center gap-3">
         <nav class="nav nav-underline-nav small">
           <a href="index.html" class="nav-link nav-link-underline">Home</a>
-          <a href="projects.html" class="nav-link nav-link-underline active">Projects</a>
+          <a href="projects.html" class="nav-link nav-link-underline">Projects</a>
           <a href="contact.html" class="nav-link nav-link-underline">Contact</a>
         </nav>
         <button
@@ -71,22 +71,21 @@
     </div>
   </header>
 
-  <main class="container flex-grow-1 py-5 mt-5">
-    <section class="mb-5">
-      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between mb-3">
-        <div>
-          <h1 class="h3 mb-1">Projects</h1>
-          <p class="text-secondary small mb-0">
-            A selection of work spanning web apps, tools, and experiments.
-          </p>
+  <main class="container flex-grow-1 py-5 mt-5 d-flex align-items-center justify-content-center">
+    <section class="w-100" aria-labelledby="not-found-title">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <div class="card bg-body border-secondary-subtle shadow-sm text-center">
+            <div class="card-body p-4 p-md-5">
+              <p class="text-secondary small mb-2">Error 404</p>
+              <h1 id="not-found-title" class="h3 mb-3">Page not found</h1>
+              <p class="text-secondary mb-4">
+                The page you're looking for doesn't exist or may have been moved.
+              </p>
+              <a href="index.html" class="btn btn-primary">Back to home</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div
-        id="projects-grid"
-        class="row row-cols-1 row-cols-md-3 g-4"
-        aria-label="Project gallery"
-      >
-        <!-- Populated from data/projects.json -->
       </div>
     </section>
   </main>
@@ -94,7 +93,7 @@
   <footer class="mt-auto border-top border-secondary-subtle py-3 bg-body">
     <div class="container small text-secondary text-center">
       <p class="mb-0">
-        &copy; <span id="footer-year"></span> Brady. All rights reserved.
+        &copy; <span id="footer-year"></span> Brady Malott. All rights reserved.
       </p>
     </div>
   </footer>
